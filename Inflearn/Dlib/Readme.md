@@ -4,8 +4,13 @@
 - pip install dlib   
 - pip install face_recognition   
    
-인식할 대상의 얼굴 사진 10 ~ 25장 준비    
-준비한 사진의 특징 추출(추가 전처리 : face_landmark, face_alignment)   
+1. Pickle   
+- 인식할 대상의 얼굴 사진 10 ~ 25장 준비(son, tedy 따로)          
+- 준비한 사진의 특징 추출(추가 전처리 : face_landmark, face_alignment 등을 사용 가능)   
+- 특징들을 모아놓은 pickle 파일 생성    
 
-Harr보단 정확도가 높아졌으나, 아직도 얼굴 각도, 해상도 등의 영향으로 얼굴을 검출 못하는 경우가 있었음
-미리 학습된 모델을 받아(caffemodel), deploy.prototxt.txt(구조) 이를 코드로 실행하여 얼굴 탐색함
+2. Image Recognition    
+- 얼굴 인식하려는 이미지에서 마찬가지로 특징을 뽑아내고, 기존에 존재하는 pickle 파일 간 비교    
+- 추가적으로 새로운 이미지에서 얼굴에 사각형을 그려주거나 동작 시간 등을 측정   
+
+Harr, DNN 보다 높은 얼굴 인식 정확도를 보임   
