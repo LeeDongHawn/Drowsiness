@@ -10,10 +10,10 @@
 - 특징들을 모아놓은 pickle 파일 생성    
 
 2. Image Recognition    
-- 얼굴 인식하려는 이미지에서 마찬가지로 특징을 뽑아내고, 기존에 존재하는 pickle 파일 간 비교(k-nearest-neighbors 사용)   
-- classification 방법으로 KNN은 높은 정확도를 보이지 못함. -> Support Vector Machine 등의 방법을 사용   
+- 얼굴 인식하려는 이미지에서 마찬가지로 특징을 뽑아내고, 기존에 생성한 pickle 파일의 특징 값과 비교(k-nearest-neighbors 사용)   
+- classification 방법(compare face)으로 KNN은 높은 정확도를 보이지 못함. -> Support Vector Machine 등의 방법을 사용   
 - 추가적으로 새로운 이미지에서 얼굴에 사각형을 그려주거나 동작 시간 등을 측정   
 
 Harr, DNN 보다 높은 얼굴 인식 정확도를 보임   
-CNN과 HOG 방식은 속도와 정확도 간의 trade-off 관계가 있음(CNN 정확도+, 속도-)       
+Face_recognition : CNN과 HOG 방식은 속도와 정확도 간의 trade-off 관계가 있음(CNN 정확도+, 속도-)       
 (동영상) 개선방법 : 동영상의 이미지를 영상으로 만든 다음 실행하면 빠르게 결과 확인 가능함    
