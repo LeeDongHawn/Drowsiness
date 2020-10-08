@@ -11,4 +11,7 @@ Face Detection 방법
 https://github.com/davisking/dlib-models (Model)      
 
 강화 - Face Alignment(Dlib)     
-기울어진 얼굴을 바로 해주기 위함   
+기울어진 얼굴을 바로 해주기 위함(인식률 향상)   
+1) ㅁㅁ .       
+2) ㅁㅁ .      
+3) ㅁㅁ .     
