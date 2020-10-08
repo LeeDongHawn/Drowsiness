@@ -8,4 +8,4 @@ Face Detection 방법
 - Dlib c++ library
 
 강화 - Face Landmark(Dlib)      
-https://github.com/davisking/dlib-models(Model)   
+https://github.com/davisking/dlib-models (Model)      
