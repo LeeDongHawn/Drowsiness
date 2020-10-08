@@ -1,1 +1,14 @@
-졸음 인식(Eye Aspect Ratio)   
+졸음 인식
+
+1. 웹캠 사용   
+2. 얼굴 탐색 : harr cascade   
+3. 얼굴 특징점(눈) 탐색 : face_landmark   
+4. EAR(Eye Aspect Ratio) 계산   
+5. 임계값(min_EAR)보다 작은 EAR이 연속적으로 나타나는 경우 Beep음 발생   
+
+
+[문제점]
+- 
+- 
+- 
+- 
