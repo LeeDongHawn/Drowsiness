@@ -7,5 +7,8 @@ Face Detection 방법
 - Deep Neural Networks (dnn module)
 - Dlib c++ library
 
-강화 - Face Landmark(Dlib)      
+강화 - Face Landmark(Dlib)         
 https://github.com/davisking/dlib-models (Model)      
+
+강화 - Face Alignment(Dlib)     
+기울어진 얼굴을 바로 해주기 위함   
