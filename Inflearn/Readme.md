@@ -7,5 +7,5 @@ Face Detection 방법
 - Deep Neural Networks (dnn module)
 - Dlib c++ library
 
-강화 - Face Landmark   
+강화 - Face Landmark(Dlib)      
 https://ibug.doc.ic.ac.uk/resources/facial-point-annotations/   
